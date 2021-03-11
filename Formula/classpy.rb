@@ -7,7 +7,7 @@ class Classpy < Formula
 
   bottle :unneeded
 
-  depends_on :openjdk
+  depends_on :java
 
   def install
     prefix.install "classpy-#{version}.jar"
